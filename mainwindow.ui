@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuPlik">
+    <property name="title">
+     <string>Plik</string>
+    </property>
+    <addaction name="actionOtworz"/>
+    <addaction name="actionZamknij"/>
+    <addaction name="actionWyjscie"/>
+   </widget>
+   <widget class="QMenu" name="menuEdycja">
+    <property name="title">
+     <string>Edycja</string>
+    </property>
+    <addaction name="actionJasnosc_Kontrast_Gamma"/>
+    <addaction name="actionRGB_CMYK"/>
+    <addaction name="actionRGB_HSL"/>
+    <addaction name="actionCIE_XYZ"/>
+    <addaction name="actionLAB"/>
+   </widget>
+   <widget class="QMenu" name="menuFiltry">
+    <property name="title">
+     <string>Filtry</string>
+    </property>
+    <addaction name="actionFiltry_liniowe_2"/>
+    <addaction name="actionFiltry_nieliniowe_2"/>
+    <addaction name="actionFiltr_Gaussa_2"/>
+    <addaction name="actionUnsharpMask"/>
+   </widget>
+   <widget class="QMenu" name="menuWizualizacja">
+    <property name="title">
+     <string>Wizualizacja</string>
+    </property>
+    <addaction name="actionHistogram"/>
+    <addaction name="actionFourier"/>
+   </widget>
+   <addaction name="menuPlik"/>
+   <addaction name="menuEdycja"/>
+   <addaction name="menuFiltry"/>
+   <addaction name="menuWizualizacja"/>
+  </widget>
+  <action name="actionOtworz">
+   <property name="text">
+    <string>Otworz</string>
+   </property>
+  </action>
+  <action name="actionJasnosc_Kontrast_Gamma">
+   <property name="text">
+    <string>BCG</string>
+   </property>
+  </action>
+  <action name="actionZamknij">
+   <property name="text">
+    <string>Zamknij</string>
+   </property>
+  </action>
+  <action name="actionDddd">
+   <property name="text">
+    <string>dddd</string>
+   </property>
+  </action>
+  <action name="actionRGB_CMYK">
+   <property name="text">
+    <string>CMYK</string>
+   </property>
+  </action>
+  <action name="actionRGB_HSL">
+   <property name="text">
+    <string>HSL</string>
+   </property>
+  </action>
+  <action name="actionTest">
+   <property name="text">
+    <string>test</string>
+   </property>
+  </action>
+  <action name="actionCIE_XYZ">
+   <property name="text">
+    <string>XYZ</string>
+   </property>
+  </action>
+  <action name="actionLAB">
+   <property name="text">
+    <string>LAB</string>
+   </property>
+  </action>
+  <action name="actionFiltr_Gaussa">
+   <property name="text">
+    <string>Filtr Gaussa</string>
+   </property>
+  </action>
+  <action name="actionFiltry_liniowe">
+   <property name="text">
+    <string>Filtry liniowe</string>
+   </property>
+  </action>
+  <action name="actionFiltry_nieliniowe">
+   <property name="text">
+    <string>Filtry nieliniowe</string>
+   </property>
+  </action>
+  <action name="actionFiltry_liniowe_2">
+   <property name="text">
+    <string>Liniowe</string>
+   </property>
+  </action>
+  <action name="actionFiltry_nieliniowe_2">
+   <property name="text">
+    <string>Nieliniowe</string>
+   </property>
+  </action>
+  <action name="actionFiltr_Gaussa_2">
+   <property name="text">
+    <string>Gaussa</string>
+   </property>
+  </action>
+  <action name="actionUnsharpMask">
+   <property name="text">
+    <string>UMask</string>
+   </property>
+  </action>
+  <action name="actionWyjscie">
+   <property name="text">
+    <string>Wyjscie</string>
+   </property>
+  </action>
+  <action name="actionHistogram">
+   <property name="text">
+    <string>Histogram</string>
+   </property>
+  </action>
+  <action name="actionFourier">
+   <property name="text">
+    <string>Fourier</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
